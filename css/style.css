@@ -743,7 +743,6 @@ a {
   justify-content: center;
   align-items: center;
   padding-right: 15px;
-
 }
 .services .box .info::after {
   content: "";
@@ -759,6 +758,55 @@ a {
   color: var(--main-color);
 }
 /* End Services */
+
+/* Start Skills */
+.our-skills {
+  padding-top: var(--section-padding);
+  padding-bottom: var(--section-padding);
+  position: relative;
+}
+.our-skills .container {
+  display: flex;
+  align-items: center;
+  gap: 40px;
+}
+.our-skills .image img {
+  width: 400px;
+}
+@media (max-width: 991px) {
+  .our-skills img {
+    display: none;
+  }
+}
+.our-skills .skills {
+  flex: 1;
+}
+.our-skills .skill h3 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 10px 0;
+}
+.our-skills .skill h3 span {
+  font-size: 12px;
+  border: 1px solid #ccc;
+  padding: 3px 5px;
+  border-radius: 4px;
+  color: var(--main-color);
+}
+.our-skills .skill .the-progress {
+  height: 30px;
+  background-color: #eee;
+  position: relative;
+}
+.our-skills .skill .the-progress span {
+  position: absolute;
+  left: 0;
+  top: 0;
+  height: 100%;
+  background-color: var(--main-color);
+}
+/* End Skills */
 
 /* Start Animation  */
 @keyframes up-and-down {
