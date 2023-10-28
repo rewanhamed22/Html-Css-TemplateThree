@@ -570,10 +570,10 @@ a {
 }
 .testimonials .box .title {
   color: #777;
-  margin-bottom: 10px ;
+  margin-bottom: 10px;
   display: block;
 }
-.testimonials .box .rate .filled {
+.testimonials .box .rate i {
   color: #ffc107;
 }
 .testimonials .box p {
