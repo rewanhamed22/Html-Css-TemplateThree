@@ -1364,6 +1364,9 @@ a {
   .discount .form {
     flex-basis: 100%;
   }
+  .discount .form{
+    padding-bottom: 50px;
+  }
 }
 /* End Discount */
 /* Start Footer */
